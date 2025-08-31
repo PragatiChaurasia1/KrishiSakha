@@ -1,0 +1,79 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+# Byte-compiled files
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# Distribution and packaging
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+
+# Logs and temporary files
+*.log
+*.tmp
+*.bak
+
+# FastAPI specific files
+instance/
+*.sqlite3
+
+# Docker files
+docker-compose.override.yml
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Miscellaneous
+*.coverage
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+*.mo
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.vscode/
+
+# Pytest cache
+.cache/
+pytest_cache/
